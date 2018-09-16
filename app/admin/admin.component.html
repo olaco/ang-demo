@@ -1,0 +1,16 @@
+<div class="container admin">
+  <div class="row">
+      <div class="col">
+          <form>
+              <h4>Welcome Admin</h4><label>Name</label>
+              <input class="form-control"
+              type="text" #nameInput  />
+              <div class="file-form">
+                <label>Image</label>
+                <input type="file" #fileInput/>
+              </div>
+              <button class="btn btn-secondary btn-admin" (click)="onAddTeam()">Add</button>
+          </form>
+      </div>
+  </div>
+</div>
